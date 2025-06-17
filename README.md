@@ -27,7 +27,7 @@ o	Link to the main JavaScript file (script.js) at the end of the <body>.
 o	A central, responsive container (max-w-7xl mx-auto p-4 or similar Tailwind classes) to house all content, ensuring good margins on larger screens.
 3.	Header Section:
 o	Large Hero Image: A placeholder image (https://placehold.co/1200x400/cccccc/000000?text=Workshop+Header) will be used initially. This image will span the full width of the content area.
-o	Title: A prominent '<h1>' tag with a placeholder title (e.g., "Quality Workshop Tools for Sale").
+o	Title: A prominent 'h1' tag with a placeholder title (e.g., "Quality Workshop Tools for Sale").
 o	Introduction Text: A brief p tag with a placeholder introductory sentence.
 o	Styling: Centered text, appropriate padding, and modern typography.
 4.	Workshop Items Section:
