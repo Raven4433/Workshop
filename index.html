@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eladó Műhely Felszerelések</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              accent: '#60A5FA', // Soft blue (blue-400)
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+    <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+        <header class="mb-8 text-center">
+            <img src="data/images/Workshop Header.jpg" alt="Műhely Fejléc" class="w-full max-h-96 object-cover rounded-lg shadow-md mb-6">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">Eladó Műhely Felszerelések</h1>
+            <p class="text-lg text-gray-600">Válogatott, minőségi műhely eszközök és gépek.</p>
+        </header>
+
+        <section id="workshop-items" class="space-y-6">
+            <!-- Items will be loaded here by script.js -->
+        </section>
+
+        <section id="contact" class="mt-12 p-6 bg-white rounded-lg shadow-md text-center">
+            <h2 class="text-2xl font-semibold mb-3">Kapcsolat</h2>
+            <p class="text-gray-700">Érdeklődés esetén vegye fel velünk a kapcsolatot az alábbi email címen: <a href="mailto:placeholder@example.com" class="text-accent hover:underline">placeholder@example.com</a></p>
+        </section>
+
+        <footer class="mt-12 pt-6 border-t border-gray-300 text-center text-gray-500 text-sm">
+            <p>&copy; 2023 Műhely Áruk. Minden jog fenntartva.</p>
+            <p>Design by Jules for User</p>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+
+<!-- Lightbox Modal -->
+<div id="lightbox-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-50">
+  <div class="bg-white p-4 rounded-lg shadow-xl max-w-full max-h-full relative">
+    <img id="lightbox-image" src="" alt="Nagyított kép" class="max-w-full max-h-[calc(100vh-10rem)] object-contain">
+    <button id="lightbox-close" class="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full p-2 leading-none hover:bg-opacity-75 text-2xl">&times;</button>
+    <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-3 leading-none hover:bg-opacity-75 text-3xl">&lt;</button>
+    <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-3 leading-none hover:bg-opacity-75 text-3xl">&gt;</button>
+    <div id="lightbox-caption" class="text-center text-sm text-gray-700 mt-2"></div>
+  </div>
+</div>
+</body>
+</html>
