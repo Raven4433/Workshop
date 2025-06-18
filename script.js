@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Collapsed View HTML
       itemElement.innerHTML = `
-        <div class="item-header p-5 border-b border-gray-200 cursor-pointer bg-slate-100 hover:bg-slate-200 transition-colors">
+        <div class="item-header p-6 border-b border-gray-200 cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
           <div class="flex justify-between items-center"> <!-- Changed items-start to items-center for overall vertical alignment -->
             <div class="flex-grow mr-4"> <!-- Added wrapper for name and short info to control their spacing -->
               <h3 class="text-xl md:text-2xl font-semibold text-gray-900">${item.elnevezes}</h3>
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (descriptionPlaceholder) {
         if (item.reszletes_leiras && item.reszletes_leiras.length > 0) {
           descriptionPlaceholder.innerHTML = ''; // Clear placeholder text
-          descriptionPlaceholder.className = 'detailed-description prose prose-sm max-w-none leading-relaxed'; // Using Tailwind Typography plugin classes
+          descriptionPlaceholder.className = 'detailed-description prose prose-sm max-w-none leading-loose'; // Using Tailwind Typography plugin classes
 
           let htmlContent = '';
           let inList = false;

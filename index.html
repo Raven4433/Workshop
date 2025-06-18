@@ -24,8 +24,8 @@
 <body class="font-sans bg-gray-100 text-gray-800">
     <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
         <header class="mb-8 text-center">
-            <img src="data/images/Workshop Header.jpg" alt="Műhely Fejléc" class="w-full max-h-96 object-cover rounded-lg shadow-md mb-6">
-            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">Eladó Műhely Felszerelések</h1>
+            <img src="data/images/Workshop Header.jpg" alt="Műhely Fejléc" class="w-full max-h-96 object-cover rounded-lg shadow-md mb-8"> <!-- Changed mb-6 to mb-8 -->
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Eladó Műhely Felszerelések</h1> <!-- Changed mb-2 to mb-4 -->
             <p class="text-lg text-gray-600">Válogatott, minőségi műhely eszközök és gépek.</p>
         </header>
 
@@ -33,12 +33,17 @@
             <!-- Items will be loaded here by script.js -->
         </section>
 
-        <section id="contact" class="mt-12 p-6 bg-gray-900 rounded-lg text-center">
-            <h2 class="text-2xl font-semibold mb-3 text-gray-100">Kapcsolat</h2>
-            <p class="text-gray-200">Érdeklődés esetén vegye fel velünk a kapcsolatot az alábbi email címen: <a href="mailto:placeholder@example.com" class="text-accent hover:underline">placeholder@example.com</a></p>
+        <section id="contact" class="mt-12 p-6 bg-white rounded-lg shadow-md text-center"> <!-- bg-gray-900 to bg-white, added shadow-md -->
+            <h2 class="text-2xl font-semibold mb-4 text-gray-900">Kapcsolat</h2>
+            <p class="text-gray-700 mb-2">
+                <strong>Telefon:</strong> <a href="tel:+36000000000" class="text-accent hover:underline">+36 (00) 000-0000</a>
+            </p>
+            <p class="text-gray-700">
+                <strong>Email:</strong> <a href="mailto:placeholder@example.com" class="text-accent hover:underline">placeholder@example.com</a>
+            </p>
         </section>
 
-        <footer class="mt-12 py-8 bg-gray-900 rounded-lg text-center text-gray-400 text-sm"> <!-- Added bg-gray-900, py-8, removed border, updated text color -->
+        <footer class="mt-12 pt-6 border-t border-gray-300 text-center text-gray-500 text-sm"> <!-- Removed bg-gray-900, rounded-lg. Added border-t, border-gray-300. Changed py-8 to pt-6. Changed text-gray-400 to text-gray-500 -->
             <p>&copy; 2023 Műhely Áruk. Minden jog fenntartva.</p>
             <p>Design by Jules for User</p>
         </footer>
@@ -50,9 +55,9 @@
 <div id="lightbox-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-50">
   <div class="bg-white p-4 rounded-lg shadow-xl max-w-full max-h-full relative">
     <img id="lightbox-image" src="" alt="Nagyított kép" class="max-w-full max-h-[calc(100vh-10rem)] object-contain">
-    <button id="lightbox-close" class="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full p-2 leading-none hover:bg-opacity-75 text-2xl">&times;</button>
-    <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-3 leading-none hover:bg-opacity-75 text-3xl">&lt;</button>
-    <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-3 leading-none hover:bg-opacity-75 text-3xl">&gt;</button>
+    <button id="lightbox-close" class="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center leading-none hover:bg-opacity-75 text-2xl">&times;</button>
+    <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center leading-none hover:bg-opacity-75 text-3xl">&lt;</button>
+    <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center leading-none hover:bg-opacity-75 text-3xl">&gt;</button>
     <div id="lightbox-caption" class="text-center text-sm text-gray-700 mt-2"></div>
   </div>
 </div>
