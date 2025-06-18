@@ -5,9 +5,14 @@
     "darabszam": 1,
     "ar_ft": 220000,
     "kepek": [
-      "temp_img_eszterga_1.jpg",
-      "temp_img_eszterga_2.jpg",
-      "temp_img_eszterga_3.jpg"
+		"data/images/02 Eszterga/01.jpg",
+		"data/images/02 Eszterga/02.jpg",
+		"data/images/02 Eszterga/03.jpg",
+		"data/images/02 Eszterga/04.jpg",
+		"data/images/02 Eszterga/05.jpg",
+		"data/images/02 Eszterga/06.jpg",
+		"data/images/02 Eszterga/07.jpg",
+		"data/images/02 Eszterga/08.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** Hyundai HYD-500",
@@ -31,8 +36,8 @@
     "darabszam": 1,
     "ar_ft": 8000,
     "kepek": [
-      "temp_img_esztergakes_geko_12x12_1.jpg",
-      "temp_img_esztergakes_geko_12x12_2.jpg"
+		"data/images/02 Eszterga/Esztergakesek/00.jpg",
+		"data/images/02 Eszterga/Esztergakesek/01.jpg"
     ],
     "reszletes_leiras": [
       "**Típus:** 10 darabos készlet (eredeti 11 darabosból 1 db hiányzik).",
@@ -47,8 +52,8 @@
     "darabszam": 1,
     "ar_ft": 8000,
     "kepek": [
-      "temp_img_esztergakes_geko_10x10_1.jpg",
-      "temp_img_esztergakes_geko_10x10_2.jpg"
+		"data/images/02 Eszterga/Esztergakesek/00.jpg",
+		"data/images/02 Eszterga/Esztergakesek/02.jpg"
     ],
     "reszletes_leiras": [
       "**Típus:** 11 darabos készlet.",
@@ -63,8 +68,8 @@
     "darabszam": 1,
     "ar_ft": 5000,
     "kepek": [
-      "temp_img_esztergakes_fadobozos_1.jpg",
-      "temp_img_esztergakes_fadobozos_2.jpg"
+		"data/images/02 Eszterga/Esztergakesek/00.jpg",
+		"data/images/02 Eszterga/Esztergakesek/03.jpg"
     ],
     "reszletes_leiras": [
       "**Típus:** 9 darabos készlet (eredeti 11 darabosból 2 db hiányzik).",
@@ -78,8 +83,8 @@
     "darabszam": 1,
     "ar_ft": 6000,
     "kepek": [
-      "temp_img_esztergakes_femdobozos_1.jpg",
-      "temp_img_esztergakes_femdobozos_2.jpg"
+		"data/images/02 Eszterga/Esztergakesek/00.jpg",
+		"data/images/02 Eszterga/Esztergakesek/04.jpg"
     ],
     "reszletes_leiras": [
       "**Típus:** 8 darabos készlet (eredeti 11 darabosból 3 db hiányzik).",
@@ -93,8 +98,11 @@
     "darabszam": 1,
     "ar_ft": 59000,
     "kepek": [
-      "temp_img_basa1_1.jpg",
-      "temp_img_basa1_2.jpg"
+		"data/images/01 Faipari/01 - BASA1/01.jpg",
+		"data/images/01 Faipari/01 - BASA1/02.jpg",
+		"data/images/01 Faipari/01 - BASA1/03.jpg",
+		"data/images/01 Faipari/01 - BASA1/04.jpg",
+		"data/images/01 Faipari/01 - BASA1/05.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** Scheppach BASA1",
@@ -116,8 +124,13 @@
     "darabszam": 1,
     "ar_ft": 180000,
     "kepek": [
-      "temp_img_basa3_1.jpg",
-      "temp_img_basa3_2.jpg"
+		"data/images/01 Faipari/02 - BASA3/01.jpg",
+		"data/images/01 Faipari/02 - BASA3/02.jpg",
+		"data/images/01 Faipari/02 - BASA3/03.jpg",
+		"data/images/01 Faipari/02 - BASA3/04.jpg",
+		"data/images/01 Faipari/02 - BASA3/05.jpg",
+		"data/images/01 Faipari/02 - BASA3/06.jpg",
+		"data/images/01 Faipari/02 - BASA3/07.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** Scheppach BASA3 Vario Drive",
@@ -146,8 +159,10 @@
     "darabszam": 1,
     "ar_ft": 129000,
     "kepek": [
-      "temp_img_hms1070_1.jpg",
-      "temp_img_hms1070_2.jpg"
+		"data/images/01 Faipari/03 - HMS 1070/01.jpg",
+      	"data/images/01 Faipari/03 - HMS 1070/02.jpg",
+		"data/images/01 Faipari/03 - HMS 1070/03.jpg",
+		"data/images/01 Faipari/03 - HMS 1070/04.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** Scheppach HMS1070",
@@ -171,8 +186,11 @@
     "darabszam": 1,
     "ar_ft": 34000,
     "kepek": [
-      "temp_img_sd1600v_1.jpg",
-      "temp_img_sd1600v_2.jpg"
+		"data/images/01 Faipari/04 - SD 1600/01.jpg",
+		"data/images/01 Faipari/04 - SD 1600/02.jpg",
+		"data/images/01 Faipari/04 - SD 1600/03.jpg",
+		"data/images/01 Faipari/04 - SD 1600/04.jpg",
+		"data/images/01 Faipari/04 - SD 1600/05.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** Scheppach SD1600V",
@@ -200,8 +218,9 @@
     "darabszam": 2,
     "ar_ft": 7000,
     "kepek": [
-      "temp_img_felso_maro_1.jpg",
-      "temp_img_felso_maro_2.jpg"
+		"data/images/01 Faipari/05 - Felsomaro kesek/00.jpg",
+      	"data/images/01 Faipari/05 - Felsomaro kesek/01.jpg",
+		"data/images/01 Faipari/05 - Felsomaro kesek/02.jpg"
     ],
     "reszletes_leiras": [
       "**Típus:** Felsőmaró kés készlet (OBERFRÄSEN-SATZ).",
@@ -223,8 +242,8 @@
     "darabszam": 1,
     "ar_ft": 59000,
     "kepek": [
-      "temp_img_femszalagfuresz_1.jpg",
-      "temp_img_femszalagfuresz_2.jpg"
+		"data/images/03 Szalagfuresz/01.jpg",
+      	"data/images/03 Szalagfuresz/02.jpg"
     ],
     "reszletes_leiras": [
       "**Modell:** EXPERT Professional 0205-401",
@@ -243,8 +262,9 @@
     "darabszam": 2,
     "ar_ft": 29000,
     "kepek": [
-      "temp_img_kerekes_asztal_nagy_1.jpg",
-      "temp_img_kerekes_asztal_nagy_2.jpg"
+		"data/images/04 Vasasztalok/01.jpg",
+		"data/images/04 Vasasztalok/02.jpg",
+		"data/images/04 Vasasztalok/03.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült keretszerkezet.",
@@ -264,8 +284,8 @@
     "darabszam": 3,
     "ar_ft": 22000,
     "kepek": [
-      "temp_img_kerekes_asztal_kicsi_1.jpg",
-      "temp_img_kerekes_asztal_kicsi_2.jpg"
+		"data/images/04 Vasasztalok/04.jpg",
+		"data/images/04 Vasasztalok/05.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült keretszerkezet.",
@@ -285,8 +305,8 @@
     "darabszam": 1,
     "ar_ft": 18000,
     "kepek": [
-      "temp_img_kerekes_asztal_egyedi_1.jpg",
-      "temp_img_kerekes_asztal_egyedi_2.jpg"
+		"data/images/04 Vasasztalok/04.jpg",
+		"data/images/04 Vasasztalok/05.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült keretszerkezet.",
@@ -301,13 +321,14 @@
     ]
   },
   {
-    "elnevezes": "Vas Tárolóállvány - Dupla Oldalas (T1)",
+    "elnevezes": "Vas Tárolóállvány - Kampós",
     "rovid_info": "Kivételesen erős és masszív zöldre festett vas tárolóállvány hosszú anyagok rendezett tárolására.",
     "darabszam": 1,
     "ar_ft": 59000,
     "kepek": [
-      "temp_img_tarolo_allvany_t1_1.jpg",
-      "temp_img_tarolo_allvany_t1_2.jpg"
+		"data/images/05 Vasallvanyok/T1/01.jpg",
+      	"data/images/05 Vasallvanyok/T1/02.jpg",
+		"data/images/05 Vasallvanyok/T1/03.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült, rendkívül stabil szerkezet.",
@@ -320,13 +341,14 @@
     ]
   },
   {
-    "elnevezes": "Vas Tárolóállvány - Zöldre Festett (T2)",
+    "elnevezes": "Vas Tárolóállvány - Rácsos",
     "rovid_info": "Extra masszív, zöldre festett vas tárolóállvány hosszú anyagok, például rudak és profilok rendezett tárolására.",
     "darabszam": 1,
     "ar_ft": 49000,
     "kepek": [
-      "temp_img_tarolo_allvany_t2_1.jpg",
-      "temp_img_tarolo_allvany_t2_2.jpg"
+		"data/images/05 Vasallvanyok/T2/01.jpg",
+      	"data/images/05 Vasallvanyok/T2/02.jpg",
+		"data/images/05 Vasallvanyok/T2/03.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült, rendkívül stabil szerkezet.",
@@ -340,13 +362,14 @@
     ]
   },
   {
-    "elnevezes": "Vas Karos Tárolóállványok - Hosszú Anyagokhoz (T3)",
+    "elnevezes": "Vas Karos Tárolóállványok - Hosszú Anyagokhoz",
     "rovid_info": "6 darab extra erős, fix vas karos tárolóállvány hosszú és nehéz anyagok rendezett tárolására, alig használt állapotban.",
     "darabszam": 6,
     "ar_ft": 45000,
     "kepek": [
-      "temp_img_karos_tarolo_t3_1.jpg",
-      "temp_img_karos_tarolo_t3_2.jpg"
+		"data/images/05 Vasallvanyok/T3/01.jpg",
+      	"data/images/05 Vasallvanyok/T3/02.jpg",
+		"data/images/05 Vasallvanyok/T3/03.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Masszív, hegesztett vasprofilból készült keretszerkezet, fix állású.",
@@ -366,8 +389,8 @@
     "darabszam": 1,
     "ar_ft": 29000,
     "kepek": [
-      "temp_img_szekreny_fapolccal_1.jpg",
-      "temp_img_szekreny_fapolccal_2.jpg"
+		"data/images/05 Vasallvanyok/T4/01.jpg",
+      	"data/images/05 Vasallvanyok/T4/02.jpg"
     ],
     "reszletes_leiras": [
       "**Kialakítás:** Robusztus, hegesztett vasprofilból készült vázszerkezet.",
