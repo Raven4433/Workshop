@@ -1,0 +1,41 @@
+/* Custom styles for Workshop Landing Page */
+
+body {
+    /* Inter font is already applied via inline style in index.html,
+       but this can be a fallback or place for more specific body styles. */
+}
+
+/* Example of a custom style that might be harder with Tailwind alone */
+.custom-arrow {
+    border: solid #60A5FA; /* Accent color */
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+}
+
+.expanded .custom-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Placeholder for image gallery custom styles if needed */
+.image-gallery-thumbnail {
+    /* Tailwind's object-cover and size classes are preferred,
+       but custom styles can be added here if necessary. */
+}
+
+/* Applying accent color to specific custom elements if not using Tailwind's color classes directly */
+.text-accent {
+    color: #60A5FA;
+}
+
+.bg-accent {
+    background-color: #60A5FA;
+}
+
+.border-accent {
+    border-color: #60A5FA;
+}

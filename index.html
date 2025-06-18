@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .accent-color { color: #60A5FA; }
+        .accent-bg { background-color: #60A5FA; }
+        .accent-border { border-color: #60A5FA; }
+        .lightbox { display: none; } /* Hidden by default */
+        .lightbox.active { display: flex; } /* Flex to center content */
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Main Layout Container -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Header Section -->
+        <header class="py-16 text-center">
+            <img src="https://via.placeholder.com/w-full/h-64?text=Workshop+Hero+Image" alt="Workshop Hero Image" class="w-full max-w-3xl mx-auto mb-8 rounded-lg shadow-md object-cover">
+            <h1 class="text-5xl font-bold text-gray-900">Interactive Workshop Title</h1>
+            <p class="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
+                Join our workshop to learn cutting-edge skills in a hands-on environment. Explore, create, and innovate with us!
+            </p>
+        </header>
+
+        <!-- Workshop Items Section -->
+        <section id="workshop-items-section" class="py-16">
+            <h2 class="text-4xl font-semibold text-center mb-12 text-gray-900">Workshop Modules</h2>
+            <!-- Container for dynamically loaded items -->
+            <div id="dynamic-workshop-items" class="space-y-8">
+                <!-- Static items removed, content will be loaded by script.js -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-gray-50 my-16 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-semibold text-center mb-8 text-gray-900">Get In Touch</h2>
+            <div class="max-w-lg mx-auto text-center">
+                <p class="text-lg mb-6 text-gray-700">Have questions or ready to sign up? We'd love to hear from you!</p>
+                <a href="mailto:contact@exampleworkshop.com" class="inline-block bg-accent text-white font-bold px-8 py-3 rounded-lg hover:bg-blue-500 transition-colors duration-300 text-lg">
+                    Email Us: contact@exampleworkshop.com
+                </a>
+                <p class="mt-6 text-gray-600">Or call us at: <span class="font-semibold text-gray-700">(123) 456-7890</span></p>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="py-10 text-center text-gray-500 border-t border-gray-300">
+            <p>&copy; 2024 Interactive Workshop Title. All rights reserved.</p>
+            <p class="text-sm mt-1">Designed with <a href="https://tailwindcss.com/" class="text-blue-400 hover:text-blue-600">Tailwind CSS</a> and lots of &hearts;.</p>
+        </footer>
+
+    </div>
+
+    <!-- Lightbox Structure -->
+    <div id="lightbox" class="lightbox fixed inset-0 bg-black bg-opacity-75 items-center justify-center p-4 z-50">
+        <div class="relative bg-white p-4 rounded-lg max-w-3xl max-h-full">
+            <img id="lightbox-image" src="" alt="Full size image" class="max-w-full max-h-[80vh] object-contain block mx-auto">
+            <button id="lightbox-close" class="absolute top-2 right-2 text-white bg-red-500 hover:bg-red-700 rounded-full p-2 leading-none">&times;</button>
+            <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full hover:bg-gray-600">&lt;</button>
+            <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full hover:bg-gray-600">&gt;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
