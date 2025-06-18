@@ -82,19 +82,24 @@ document.addEventListener('DOMContentLoaded', () => {
       // Format price
       const formattedPrice = item.ar_ft.toLocaleString('hu-HU', { style: 'currency', currency: 'HUF', minimumFractionDigits: 0, maximumFractionDigits: 0 });
 
+      // Format darabszam with bold for the number and "db"
+      const darabszamText = `Darabszám: <strong>${item.darabszam} db</strong>`;
+
       // Collapsed View HTML
       itemElement.innerHTML = `
-        <div class="item-header p-5 border-b border-gray-200 cursor-pointer hover:bg-gray-50 transition-colors">
-          <div class="flex justify-between items-start"> <!-- items-start for better alignment if text wraps -->
-            <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mr-4">${item.elnevezes}</h3>
-            <div class="text-right flex-shrink-0">
-              <span class="text-xs sm:text-sm text-gray-500 block">${item.darabszam} db</span>
-              <p class="text-lg sm:text-xl font-bold text-accent">${formattedPrice}</p>
+        <div class="item-header p-5 border-b border-gray-200 cursor-pointer bg-slate-100 hover:bg-slate-200 transition-colors">
+          <div class="flex justify-between items-center"> <!-- Changed items-start to items-center for overall vertical alignment -->
+            <div class="flex-grow mr-4"> <!-- Added wrapper for name and short info to control their spacing -->
+              <h3 class="text-xl md:text-2xl font-semibold text-gray-900">${item.elnevezes}</h3>
+              <p class="text-sm text-gray-500 mt-1">${item.rovid_info}</p> <!-- mt-2 to mt-1 -->
             </div>
-          </div>
-          <p class="text-sm text-gray-500 mt-2">${item.rovid_info}</p>
-          <div class="flex justify-start items-center mt-3"> <!-- Increased mt slightly -->
+            <div class="right-group flex items-center space-x-3 flex-shrink-0"> <!-- New group for qty, price, arrow -->
+              <div class="text-right">
+                <span class="text-xs sm:text-sm text-gray-500 block">${darabszamText}</span>
+                <p class="text-lg sm:text-xl font-bold text-accent">${formattedPrice}</p>
+              </div>
               <span class="arrow-icon text-accent text-xl transform transition-transform duration-300">▼</span>
+            </div>
           </div>
         </div>
         <div class="item-details p-5 hidden bg-gray-50 border-t border-gray-200">
@@ -157,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (descriptionPlaceholder) {
         if (item.reszletes_leiras && item.reszletes_leiras.length > 0) {
           descriptionPlaceholder.innerHTML = ''; // Clear placeholder text
-          descriptionPlaceholder.className = 'detailed-description prose prose-sm max-w-none'; // Using Tailwind Typography plugin classes
+          descriptionPlaceholder.className = 'detailed-description prose prose-sm max-w-none leading-relaxed'; // Using Tailwind Typography plugin classes
 
           let htmlContent = '';
           let inList = false;
