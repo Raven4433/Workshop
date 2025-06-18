@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('data/info/items.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error(\`HTTP error! status: \${response.status}, failed to load data/info/items.json\`);
+                //throw new Error(\`HTTP error! status: \${response.status}, failed to load data/info/items.json\`);
             }
             return response.json();
         })
